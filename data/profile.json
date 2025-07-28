@@ -9,19 +9,19 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "/assets/img/icons/js-icon.svg"
+        "logo": "assets/img/icons/js-icon.svg"
       },
       {
         "name": "React",
-        "logo": "/assets/img/icons/react-icon.svg"
+        "logo": "assets/img/icons/react-icon.svg"
       },
       {
         "name": "TypeScript",
-        "logo": "/assets/img/icons/typescript-icon.svg"
+        "logo": "assets/img/icons/typescript-icon.svg"
       },
       {
         "name": "Node.js",
-        "logo": "/assets/img/icons/node-icon.svg"
+        "logo": "assets/img/icons/node-icon.svg"
       }
     ],
     "softSkills": [
