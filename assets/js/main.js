@@ -45,6 +45,26 @@ function updateLanguages(profileData) {
     .join("");
 }
 
+function updatePortfolio(profileData) {
+  const portfolio = document.getElementById("profile.portfolio");
+
+  portfolio.innerHTML = profileData.portfolio
+    .map((project) => {
+      return `
+     <li>
+    <h3 ${project.github ? 'class="title github"' : ""}> ${project.name}</h3>
+    <a class="project.links" href="${
+      project.url
+    }"target="blank">Link do Repositório do Projeto</a>
+    <a class="project.links" href="${
+      project.url2
+    }"target=blank">Link do Github Pages</a>
+     </li>
+    `;
+    })
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
 
@@ -52,7 +72,7 @@ function updateLanguages(profileData) {
   updateHardSkills(profileData);
   updateSoftSkills(profileData);
   updateLanguages(profileData);
+  updatePortfolio(profileData);
   // updateEducation(profileData);
-  // updatePortfolio(profileData);
   // updateExperience(profileData);
 })();

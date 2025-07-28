@@ -32,5 +32,25 @@
       "Aprendizado contínuo"
     ]
   },
-  "languages": ["Português BR (Nativo)", "Inglês (Fluente)"]
+  "languages": ["Português BR (Nativo)", "Inglês (Fluente)"],
+  "portfolio": [
+    {
+      "name": "Santander Week Frontend - Angular",
+      "url": "https://github.com/JulianaAkemi/bootcamp-santander-frontend.git",
+      "url2": "https://github.com/JulianaAkemi/bootcamp-santander-frontend/deployments/github-pages",
+      "github": true
+    },
+    {
+      "name": "Trainee React project",
+      "url": "https://github.com/JulianaAkemi/countryflags.git",
+      "url2": "https://github.com/JulianaAkemi/countryflags/deployments/github-pages",
+      "github": true
+    },
+    {
+      "name": "React mini project",
+      "url": "https://github.com/JulianaAkemi/robofriends.git",
+      "url2": "https://julianaakemi.github.io/robofriends/",
+      "github": true
+    }
+  ]
 }
