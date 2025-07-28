@@ -19,19 +19,30 @@ function updateProfileInfo(profileData) {
   const email = document.getElementById("profile.email");
   email.innerText = profileData.email;
   email.href = `mailto:${profileData.email}`;
+}
 
-  const github = document.getElementById("profile.github");
-  github.innerText = "GitHub";
-  github.href = `${profileData.github}`;
-  github.setAttribute("target", "_blank");
+function updateHardSkills(profileData) {
+  const hardSkills = document.getElementById("profile.skills.hardSkills");
+
+  hardSkills.innerHTML = profileData.skills.hardSkills
+    .map((skill) => `<li><img src="${skill.logo}" alt="${skill.name}"></li>`)
+    .join("");
+}
+
+function updateSoftSkills(profileData) {
+  const softSkills = document.getElementById("profile.skills.softSkills");
+
+  softSkills.innerHTML = profileData.skills.softSkills
+    .map((skill) => `<li>${skill}</li>`)
+    .join("");
 }
 
 (async () => {
   const profileData = await fetchProfileData();
 
   updateProfileInfo(profileData);
-  // updateSoftSkills(profileData);
-  // updateHardSkills(profileData);
+  updateHardSkills(profileData);
+  updateSoftSkills(profileData);
   // updateEducation(profileData);
   // updateLanguages(profileData);
   // updatePortfolio(profileData);

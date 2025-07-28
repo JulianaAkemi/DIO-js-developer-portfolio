@@ -5,5 +5,31 @@
   "location": "São José dos Campos - SP - Brasil",
   "phone": "(12) 91234-5678",
   "email": "email@email.com",
-  "github": "https://github.com/JulianaAkemi"
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": "/assets/img/icons/js-icon.svg"
+      },
+      {
+        "name": "React",
+        "logo": "/assets/img/icons/react-icon.svg"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "/assets/img/icons/typescript-icon.svg"
+      },
+      {
+        "name": "Node.js",
+        "logo": "/assets/img/icons/node-icon.svg"
+      }
+    ],
+    "softSkills": [
+      "Comunicação eficaz",
+      "Organização",
+      "Priorização de tarefas",
+      "Orientada a resultados",
+      "Aprendizado contínuo"
+    ]
+  }
 }
