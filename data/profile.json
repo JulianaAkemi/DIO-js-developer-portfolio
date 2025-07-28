@@ -52,5 +52,22 @@
       "url2": "https://julianaakemi.github.io/robofriends/",
       "github": true
     }
+  ],
+  "experience": [
+    {
+      "name": "Frontend Engineer | Techne",
+      "period": "Apr 2023 - May 2025",
+      "description": "Desenvolvimento de novas funcionalidades e páginas inteiras para a plataforma web, entregando melhor experiência para o usuário, melhor performance e responsividade, com destaque para funcionalidade de escolha de múltiplas variantes de produto."
+    },
+    {
+      "name": "Frontend Engineer | Zax",
+      "period": "Dec 2021 - Dec 2022",
+      "description": "Desenvolvimento de novas funcionalidades e páginas inteiras para a plataforma web, entregando melhor experiência para o usuário, melhor performance e responsividade, com destaque para funcionalidade de escolha de múltiplas variantes de produto."
+    },
+    {
+      "name": "Frontend Engineer | Wunderman Thompson Technology Brasil",
+      "period": "Jul 2021 - Jun 2022",
+      "description": "Planejamento, implementação e manutenção de projeto React para Azul Linhas Aéreas, com equipe de 8 desenvolvedores e outras 2 empresas externas. Desenvolvimento e manutenção de componentes React e TypeScript."
+    }
   ]
 }

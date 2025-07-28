@@ -51,15 +51,33 @@ function updatePortfolio(profileData) {
   portfolio.innerHTML = profileData.portfolio
     .map((project) => {
       return `
-     <li>
-    <h3 ${project.github ? 'class="title github"' : ""}> ${project.name}</h3>
-    <a class="project.links" href="${
-      project.url
-    }"target="blank">Link do Repositório do Projeto</a>
-    <a class="project.links" href="${
-      project.url2
-    }"target=blank">Link do Github Pages</a>
-     </li>
+       <li>
+          <h3 ${project.github ? 'class="title github"' : ""}> ${
+        project.name
+      }</h3>
+          <a class="project.links" href="${
+            project.url
+          }"target="blank">Link do Repositório do Projeto</a>
+          <a class="project.links" href="${
+            project.url2
+          }"target=blank">Link do Github Pages</a>
+       </li>
+      `;
+    })
+    .join("");
+}
+
+function updateExperience(profileData) {
+  const experience = document.getElementById("profile.experience");
+
+  experience.innerHTML = profileData.experience
+    .map((experience) => {
+      return `
+      <li>
+        <h3 class="title">${experience.name}</h3>
+        <p class="period">${experience.period}</p>
+        <p>${experience.description}</p>
+      </li>
     `;
     })
     .join("");
@@ -73,6 +91,6 @@ function updatePortfolio(profileData) {
   updateSoftSkills(profileData);
   updateLanguages(profileData);
   updatePortfolio(profileData);
+  updateExperience(profileData);
   // updateEducation(profileData);
-  // updateExperience(profileData);
 })();
