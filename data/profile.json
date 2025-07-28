@@ -69,5 +69,22 @@
       "period": "Jul 2021 - Jun 2022",
       "description": "Planejamento, implementação e manutenção de projeto React para Azul Linhas Aéreas, com equipe de 8 desenvolvedores e outras 2 empresas externas. Desenvolvimento e manutenção de componentes React e TypeScript."
     }
+  ],
+  "education": [
+    {
+      "title": "Análise e Desenvolvimento de Sistemas, Estácio",
+      "period": "Mar 2023 - Jun 2025",
+      "type": "Bacharelado"
+    },
+    {
+      "title": "Artes Visuais, Universidade Estadual de Campinas",
+      "period": "2010 - 2015",
+      "type": "Bacharelado"
+    },
+    {
+      "title": "Propaganda e Marketing, Universidade Paulista",
+      "period": "2017 - 2020",
+      "type": "Bacharelado"
+    }
   ]
 }

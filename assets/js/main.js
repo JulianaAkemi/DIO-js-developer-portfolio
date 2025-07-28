@@ -83,6 +83,22 @@ function updateExperience(profileData) {
     .join("");
 }
 
+function updateEducation(profileData) {
+  const education = document.getElementById("profile.education");
+
+  education.innerHTML = profileData.education
+    .map((education) => {
+      return `
+        <li>
+           <h3 class="title">${education.title} </h3>
+           <p class="period">${education.period}</p>
+           <p>${education.type}</p>
+        </li>  
+      `;
+    })
+    .join("");
+}
+
 (async () => {
   const profileData = await fetchProfileData();
 
@@ -92,5 +108,5 @@ function updateExperience(profileData) {
   updateLanguages(profileData);
   updatePortfolio(profileData);
   updateExperience(profileData);
-  // updateEducation(profileData);
+  updateEducation(profileData);
 })();
