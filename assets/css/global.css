@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Neue Machina";
-  src: url("/assets/fonts/NeueMachina-Regular.otf");
+  src: url("assets/fonts/NeueMachina-Regular.otf");
 }
 
 body {
@@ -60,7 +60,7 @@ button {
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
-  background-image: url("/assets/img/background.svg");
+  background-image: url("assets/img/background.svg");
   z-index: -1;
 }
 
