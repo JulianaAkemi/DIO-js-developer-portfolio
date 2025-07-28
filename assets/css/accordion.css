@@ -52,7 +52,7 @@
   height: 0.8rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("assets/img/icons/arrow-icon.svg");
+  background-image: url("/assets/img/icons/arrow-icon.svg");
   transition: transform 0.3s ease;
 }
 
